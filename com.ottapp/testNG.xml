@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!--<suite name="Hybrid BDD Test Suite">-->
+<suite name="OTT App Test Suite">
+    <!-- <listeners>
+        <listener class-name="com.sid.automation.listeners.TestListener"/>
+    </listeners>-->
+    <test name="Regression">
+        <classes>
+            <class name="runners.TestRunner"/>
+        </classes>
+    </test>
+</suite>
